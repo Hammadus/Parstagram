@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AA5CBB5594B748B03D8B0B7 /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703F92D7D138D05BD5BB893A /* Pods_Parstagram_ParstagramUITests.framework */; };
+		3B9B8C4A26057850005847E4 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B8C4926057850005847E4 /* CommentCell.swift */; };
 		3BBAC6CE25FBE1AF00A039E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAC6CD25FBE1AF00A039E5 /* AppDelegate.swift */; };
 		3BBAC6D025FBE1AF00A039E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAC6CF25FBE1AF00A039E5 /* SceneDelegate.swift */; };
 		3BBAC6D525FBE1AF00A039E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBAC6D325FBE1AF00A039E5 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		14B9B0751920A77DBBB50FA3 /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
+		3B9B8C4926057850005847E4 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		3BBAC6CA25FBE1AF00A039E5 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBAC6CD25FBE1AF00A039E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BBAC6CF25FBE1AF00A039E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				3BBAC71425FBE5E500A039E5 /* FeedViewController.swift */,
 				3BBAC72425FC4C7100A039E5 /* CameraViewController.swift */,
 				3BBAC72925FC724800A039E5 /* PostCell.swift */,
+				3B9B8C4926057850005847E4 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				3BBAC71525FBE5E500A039E5 /* FeedViewController.swift in Sources */,
 				3BBAC6D025FBE1AF00A039E5 /* SceneDelegate.swift in Sources */,
 				3BBAC72A25FC724800A039E5 /* PostCell.swift in Sources */,
+				3B9B8C4A26057850005847E4 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
